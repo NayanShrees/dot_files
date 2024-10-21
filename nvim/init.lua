@@ -1,1 +1,1 @@
-require('nayan')
+require("nayan")

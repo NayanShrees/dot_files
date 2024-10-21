@@ -1,2 +1,2 @@
-require('nayan.vimrc')
-require('nayan.plugins')
+require("nayan.vimrc")
+require("nayan.plugins")
