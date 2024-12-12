@@ -9,7 +9,7 @@ require("mason").setup({
 })
 
 require("mason-lspconfig").setup({
-	ensure_installed = { "pylsp", "lua_ls", "rust_analyzer", "clangd", "cmake" },
+	ensure_installed = { "pylsp", "lua_ls", "rust_analyzer", "clangd", "cmake", "ltex" },
 })
 
 -- Set different settings for different languages' LSP
@@ -69,3 +69,11 @@ lspconfig.rust_analyzer.setup({})
 lspconfig.lua_ls.setup({})
 
 lspconfig.cmake.setup({})
+
+lspconfig.ltex.setup({
+	settings = {
+		ltex = {
+			language = "en-GB",
+		},
+	},
+})

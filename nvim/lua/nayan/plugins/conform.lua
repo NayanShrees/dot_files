@@ -5,6 +5,7 @@ require("conform").setup({
 		rust = { "rustfmt", lsp_format = "fallback" },
 		cpp = { "clang-format" },
 		c = { "clang-format" },
+		latex = { "latexindent" },
 	},
 
 	vim.api.nvim_create_autocmd("BufWritePre", {
