@@ -65,11 +65,11 @@ require("lazy").setup({
 		dependencies = { "nvim-lua/plenary.nvim" },
 	},
 	"lewis6991/gitsigns.nvim",
-    {
-        'windwp/nvim-autopairs',
-        event = "InsertEnter",
-        config = true,
-    },
+	{
+		"windwp/nvim-autopairs",
+		event = "InsertEnter",
+		config = true,
+	},
 })
 
 require("nayan.plugins.nerd-tree")
