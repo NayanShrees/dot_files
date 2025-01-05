@@ -59,13 +59,17 @@ require("lazy").setup({
 	"williamboman/mason-lspconfig.nvim",
 	"neovim/nvim-lspconfig",
 	"stevearc/conform.nvim",
-	"m4xshen/autoclose.nvim",
 	{
 		"nvim-telescope/telescope.nvim",
 		tag = "0.1.8",
 		dependencies = { "nvim-lua/plenary.nvim" },
 	},
 	"lewis6991/gitsigns.nvim",
+    {
+        'windwp/nvim-autopairs',
+        event = "InsertEnter",
+        config = true,
+    },
 })
 
 require("nayan.plugins.nerd-tree")
@@ -73,4 +77,3 @@ require("nayan.plugins.lsp")
 require("nayan.plugins.conform")
 require("nayan.plugins.telescope")
 require("nayan.plugins.gitsigns")
-require("autoclose").setup()

@@ -5,6 +5,7 @@ local has_words_before = function()
 end
 
 local luasnip = require("luasnip")
+local cmp_autopairs = require('nvim-autopairs.completion.cmp')
 local cmp = require("cmp")
 
 cmp.setup({
@@ -23,7 +24,7 @@ cmp.setup({
 		["<C-j>"] = cmp.mapping.select_next_item(),
 		-- Use <CR>(Enter) to confirm selection
 		-- Accept currently selected item. Set `select` to `false` to only confirm explicitly selected items.
-		["<CR>"] = cmp.mapping.confirm({ select = true }),
+		["<CR>"] = cmp.mapping.confirm({ select = false }),
 
 		-- A super tab
 		-- sourc: https://github.com/hrsh7th/nvim-cmp/wiki/Example-mappings#luasnip
@@ -77,3 +78,8 @@ cmp.setup({
 		{ name = "path" }, -- For path completion
 	}),
 })
+
+cmp.event:on(
+  'confirm_done',
+  cmp_autopairs.on_confirm_done()
+)
