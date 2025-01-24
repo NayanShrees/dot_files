@@ -9,7 +9,7 @@ require("mason").setup({
 })
 
 require("mason-lspconfig").setup({
-	ensure_installed = { "pylsp", "lua_ls", "rust_analyzer", "clangd", "cmake", "tinymist" },
+	ensure_installed = { "pylsp", "lua_ls", "rust_analyzer", "clangd", "tinymist" },
 })
 
 -- Set different settings for different languages' LSP
@@ -67,7 +67,5 @@ lspconfig.clangd.setup({})
 lspconfig.rust_analyzer.setup({})
 
 lspconfig.lua_ls.setup({})
-
-lspconfig.cmake.setup({})
 
 lspconfig.tinymist.setup({})
