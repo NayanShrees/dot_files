@@ -1,0 +1,4 @@
+[[language]]
+name = "typst"
+formatter = { command = "typstyle" }
+auto-format = true
