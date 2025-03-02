@@ -2,3 +2,13 @@
 name = "typst"
 formatter = { command = "typstyle" }
 auto-format = true
+
+[[language]]
+name = "c"
+formatter = { command = "clang-format" }
+auto-format = true
+
+[[language]]
+name = "cpp"
+formatter = { command = "clang-format" }
+auto-format = true
