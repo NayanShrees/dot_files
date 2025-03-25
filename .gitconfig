@@ -1,9 +1,11 @@
+[core]
+	editor = helix
 [user]
 	name = Nayan Shrees
 	email = nayan@nayanshrees.com
-[core]
-	editor = nvim
 [pull]
 	rebase = true
 [fetch]
 	prune = true
+[init]
+	defaultbranch = main
