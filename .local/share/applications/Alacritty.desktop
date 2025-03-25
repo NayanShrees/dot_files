@@ -2,7 +2,7 @@
 Type=Application
 TryExec=alacritty
 Exec=alacritty
-Icon=Terminal
+Icon=terminal
 Terminal=false
 Categories=System;TerminalEmulator;
 
@@ -12,8 +12,4 @@ Comment=A fast, cross-platform, OpenGL terminal emulator
 StartupNotify=true
 StartupWMClass=Alacritty
 Actions=New;
-X-Desktop-File-Install-Version=0.27
-
-[Desktop Action New]
-Name=New Terminal
-Exec=alacritty
+X-Desktop-File-Install-Version=0.28
