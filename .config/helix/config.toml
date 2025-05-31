@@ -1,8 +1,9 @@
-theme = "solarized_light"
 
 [editor]
 line-number = "relative"
 mouse = false
+bufferline = "multiple"
+true-color = true
 
 [editor.cursor-shape]
 insert = "bar"
@@ -11,3 +12,11 @@ select = "underline"
 
 [editor.file-picker]
 hidden = false
+
+[editor.soft-wrap]
+enable = true
+
+[editor.statusline]
+left = ["mode", "file-name", "read-only-indicator", "file-modification-indicator", "spinner"]
+center = ["diagnostics", "workspace-diagnostics"]
+right = ["version-control", "selections", "position", "position-percentage"]
