@@ -6,10 +6,14 @@ Icon=terminal
 Terminal=false
 Categories=System;TerminalEmulator;
 
-Name=Terminal
+Name=Alacritty
 GenericName=Terminal
 Comment=A fast, cross-platform, OpenGL terminal emulator
 StartupNotify=true
 StartupWMClass=Alacritty
 Actions=New;
 X-Desktop-File-Install-Version=0.28
+
+[Desktop Action New]
+Name=New Terminal
+Exec=alacritty

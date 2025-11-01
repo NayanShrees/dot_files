@@ -1,11 +1,11 @@
 [Desktop Entry]
 Name=Trezor
-Exec=/home/nayan/Applications/Trezor-Suite-25.2.2-linux-x86_64.AppImage
+Exec=/home/nayan/Applications/Trezor-Suite-25.10.2-linux-x86_64.AppImage
 Terminal=false
 Type=Application
 Icon=bitcoin
 StartupWMClass=Trezor
-X-AppImage-Version=25.2.2
+X-AppImage-Version=25.10.2
 Comment=Trezor Suite desktop application
 MimeType=x-scheme-handler/trezorsuite;x-scheme-handler/bitcoin;x-scheme-handler/litecoin;x-scheme-handler/bitcoincash;x-scheme-handler/bitcoingold;x-scheme-handler/dash;x-scheme-handler/digibyte;x-scheme-handler/dogecoin;x-scheme-handler/namecoin;x-scheme-handler/vertcoin;x-scheme-handler/zcash;
 Categories=Utility;
