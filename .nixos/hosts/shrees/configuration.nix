@@ -6,8 +6,6 @@
 {
   imports = [
     ./hardware-configuration.nix
-    # ../../modules/services/ly.nix
-    # ../../modules/services/tlp.nix
   ];
 
   boot = {
@@ -35,10 +33,6 @@
     keyMap = "uk";
   };
 
-  # systemd.sleep.settings.Sleep = {
-  # AllowSuspend = "yes";
-  # };
-
   security.sudo.enable = false;
   security.doas.enable = true;
 
@@ -52,21 +46,11 @@
 
   services.pipewire = {
     enable = true;
-    # pulse.enable = true;
   };
 
   services.libinput.enable = true;
   services.openssh.enable = true;
   services.pcscd.enable = true;
-
-  # services.resolved.enable = true;
-  # services.mullvad-vpn.enable = true;
-  # services.mullvad-vpn.package = pkgs.mullvad-vpn;
-
-  # programs.hyprland = {
-  # enable = true;
-  # xwayland.enable = false;
-  # };
 
   services.displayManager.gdm.enable = true;
   services.desktopManager.gnome.enable = true;

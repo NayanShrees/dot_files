@@ -13,8 +13,6 @@
   };
 
   home.packages = [
-    # pkgs.awww
-    # pkgs.brightnessctl
     pkgs.btop
     pkgs.clang-tools
     pkgs.cmake
@@ -44,11 +42,7 @@
     ../../modules/programs/git.nix
     ../../modules/programs/gnome.nix
     ../../modules/programs/helix.nix
-    # ../../modules/programs/hyprland.nix
-    # ../../modules/programs/hyprlock.nix
     ../../modules/programs/tmux.nix
-    # ../../modules/programs/waybar.nix
-    # ../../modules/programs/wofi.nix
     ../../modules/programs/xdg.nix
   ];
 
