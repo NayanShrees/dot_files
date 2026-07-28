@@ -33,6 +33,7 @@
     pkgs.trezor-suite
     pkgs.typst
     pkgs.typstyle
+    pkgs.unzip
     pkgs.yubioath-flutter
   ];
 
