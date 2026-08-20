@@ -13,7 +13,14 @@
       projects = "${config.home.homeDirectory}/Projects";
       videos = "${config.home.homeDirectory}/Videos";
     };
+
     desktopEntries = {
+      Alacritty = {
+        name = "Terminal";
+        genericName = "Terminal";
+        icon = "terminal";
+      };
+
       btop = {
         name = "btop";
         noDisplay = true;

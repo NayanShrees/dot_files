@@ -44,6 +44,7 @@ with lib.hm.gvariant;
       color-scheme = "prefer-dark";
       document-font-name = "Comic Code Ligatures Medium 12";
       font-name = "Comic Code Ligatures Medium 10";
+      icon-theme = "Numix-Circle";
       monospace-font-name = "Comic Code Ligatures Medium 10";
       show-battery-percentage = true;
     };

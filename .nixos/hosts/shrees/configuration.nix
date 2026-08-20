@@ -69,6 +69,7 @@
     options = "";
   };
 
+  programs.dconf.enable = true;
   programs.firefox.enable = false;
   programs.fish.enable = true;
   programs.bash.enable = false;

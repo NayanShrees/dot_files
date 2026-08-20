@@ -21,13 +21,17 @@
     pkgs.fastfetch
     pkgs.firefox
     pkgs.gnome-tweaks
+    pkgs.gnumake
     pkgs.keepassxc
     pkgs.lld
     pkgs.lldb
     pkgs.nautilus
+    pkgs.ninja
     pkgs.nixd
     pkgs.nixfmt
+    pkgs.numix-icon-theme-circle
     pkgs.openjdk
+    pkgs.prettier
     pkgs.ripgrep
     pkgs.tinymist
     pkgs.trezor-suite

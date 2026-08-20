@@ -69,6 +69,18 @@
         }
 
         {
+          name = "json";
+          formatter = {
+            command = "prettier";
+            args = [
+              "--parser"
+              "json"
+            ];
+          };
+          auto-format = true;
+        }
+
+        {
           name = "rust";
           formatter = {
             command = "rustfmt";
