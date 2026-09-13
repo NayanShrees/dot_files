@@ -22,12 +22,12 @@
           inherit system;
           modules = [
             ./hosts/shrees/configuration.nix
-            home-manager.nixosModules.default
-            {
-              home-manager = {
-                users.nayan = ./users/nayan/home.nix;
-              };
-            }
+            # home-manager.nixosModules.default
+            # {
+            #   home-manager = {
+            #     users.nayan = ./users/nayan/home.nix;
+            #   };
+            # }
           ];
         };
       };

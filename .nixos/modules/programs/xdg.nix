@@ -19,6 +19,7 @@
         name = "Terminal";
         genericName = "Terminal";
         icon = "terminal";
+        exec = "alacritty";
       };
 
       btop = {
