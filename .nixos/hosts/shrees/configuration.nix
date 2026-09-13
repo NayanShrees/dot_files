@@ -88,7 +88,7 @@
     pkgs.clang
     pkgs.gcc
     pkgs.git
-    pkgs.home-manager
+    # pkgs.home-manager
     pkgs.helix
     pkgs.rustup
     pkgs.tmux

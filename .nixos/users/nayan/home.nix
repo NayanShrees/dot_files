@@ -16,7 +16,9 @@
     pkgs.btop
     pkgs.clang-tools
     pkgs.cmake
+    pkgs.cmake-language-server
     pkgs.dconf2nix
+    pkgs.devenv
     pkgs.evince
     pkgs.fastfetch
     pkgs.firefox
@@ -26,6 +28,7 @@
     pkgs.lld
     pkgs.lldb
     pkgs.nautilus
+    # pkgs.neocmakelsp
     pkgs.ninja
     pkgs.nixd
     pkgs.nixfmt
@@ -47,6 +50,7 @@
     ../../modules/programs/git.nix
     ../../modules/programs/gnome.nix
     ../../modules/programs/helix.nix
+    ../../modules/programs/jujutsu.nix
     ../../modules/programs/tmux.nix
     ../../modules/programs/xdg.nix
   ];
