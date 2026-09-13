@@ -41,6 +41,7 @@
     pkgs.typst
     pkgs.typstyle
     pkgs.unzip
+    pkgs.valgrind
     pkgs.yubioath-flutter
   ];
 
