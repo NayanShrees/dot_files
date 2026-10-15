@@ -9,6 +9,10 @@
         line-number = "relative";
         mouse = false;
         bufferline = "multiple";
+        rulers = [
+          80
+          120
+        ];
         true-color = true;
 
         cursor-shape = {
