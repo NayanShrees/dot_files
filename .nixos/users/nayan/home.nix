@@ -24,11 +24,11 @@
     pkgs.firefox
     pkgs.gnome-tweaks
     pkgs.gnumake
+    pkgs.harper
     pkgs.keepassxc
     pkgs.lld
     pkgs.lldb
     pkgs.nautilus
-    # pkgs.neocmakelsp
     pkgs.ninja
     pkgs.nixd
     pkgs.nixfmt

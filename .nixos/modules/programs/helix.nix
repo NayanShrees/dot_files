@@ -55,9 +55,21 @@
     };
 
     languages = {
+      language-server = {
+        harper-ls = {
+          command = "harper-ls";
+          args = [ "--stdio" ];
+          config = {
+            harper-ls = {
+              dialect = "British";
+            };
+          };
+        };
+      };
       language = [
         {
           name = "c";
+          language-servers = [ "harper-ls" ];
           formatter = {
             command = "clang-format";
           };
@@ -66,6 +78,7 @@
 
         {
           name = "cpp";
+          language-servers = [ "harper-ls" ];
           formatter = {
             command = "clang-format";
           };
@@ -74,6 +87,7 @@
 
         {
           name = "json";
+          language-servers = [ "harper-ls" ];
           formatter = {
             command = "prettier";
             args = [
@@ -86,6 +100,7 @@
 
         {
           name = "rust";
+          language-servers = [ "harper-ls" ];
           formatter = {
             command = "rustfmt";
           };
@@ -94,6 +109,7 @@
 
         {
           name = "typst";
+          language-servers = [ "harper-ls" ];
           formatter = {
             command = "typstyle";
           };
