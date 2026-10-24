@@ -52,7 +52,7 @@
     ../../modules/programs/git.nix
     ../../modules/programs/gnome.nix
     ../../modules/programs/helix.nix
-    ../../modules/programs/jujutsu.nix
+    # ../../modules/programs/jujutsu.nix
     ../../modules/programs/tmux.nix
     ../../modules/programs/xdg.nix
   ];
