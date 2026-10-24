@@ -47,6 +47,7 @@
 
   imports = [
     ../../modules/programs/alacritty.nix
+    ../../modules/programs/direnv.nix
     ../../modules/programs/fish.nix
     ../../modules/programs/git.nix
     ../../modules/programs/gnome.nix

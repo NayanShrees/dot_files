@@ -69,7 +69,10 @@
       language = [
         {
           name = "c";
-          language-servers = [ "harper-ls" ];
+          language-servers = [
+            "clangd"
+            "harper-ls"
+          ];
           formatter = {
             command = "clang-format";
           };
@@ -78,7 +81,10 @@
 
         {
           name = "cpp";
-          language-servers = [ "harper-ls" ];
+          language-servers = [
+            "clangd"
+            "harper-ls"
+          ];
           formatter = {
             command = "clang-format";
           };
@@ -100,7 +106,10 @@
 
         {
           name = "rust";
-          language-servers = [ "harper-ls" ];
+          language-servers = [
+            "rust-analyzer"
+            "harper-ls"
+          ];
           formatter = {
             command = "rustfmt";
           };
@@ -109,7 +118,10 @@
 
         {
           name = "typst";
-          language-servers = [ "harper-ls" ];
+          language-servers = [
+            "tinymist"
+            "harper-ls"
+          ];
           formatter = {
             command = "typstyle";
           };
